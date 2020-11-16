@@ -43,6 +43,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //web fonts -->
 
 	<style>
+		.product-single-w3l div span {
+			color: rgba(48, 63, 74, .5);
+		}
+
 		/* Table Styles Start */
 		table .tab3 {
 			padding: 0;
@@ -147,23 +151,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<p class="my-3">
 							<i class="far fa-hand-point-right mr-2"></i>
 							<label>1 Year</label>Manufacturer Warranty</p>
-						<ul>
-							<li class="mb-1">
-								3 GB RAM | 16 GB ROM | Expandable Upto 256 GB
-							</li>
-							<li class="mb-1">
-								5.5 inch Full HD Display
-							</li>
-							<li class="mb-1">
-								13MP Rear Camera | 8MP Front Camera
-							</li>
-							<li class="mb-1">
-								3300 mAh Battery
-							</li>
-							<li class="mb-1">
-								Exynos 7870 Octa Core 1.6GHz Processor
-							</li>
-						</ul>
+						<div class="row">
+							<div class="col-lg-6">
+								<img src="images/icon/camera-group.png" class="img-fluid" alt="">
+								13MP Rear <span>Camera</span> | 8MP Front <span>Camera</span>
+								<br><br>
+								<img src="images/icon/battery-group.png" class="img-fluid" alt="">
+								3300 mAh <span>Battery</span>
+								<br><br>
+								<img src="images/icon/display-group.png" class="img-fluid" alt="">
+								5.5 inch Full HD <span>Display</span>
+							</div>
+							<div class="col-lg-6">
+								<img src="images/icon/processor-group.png" class="img-fluid" alt="">
+								Exynos 7870 Octa Core 1.6GHz <span>Processor</span>
+								<br><br>
+								<img src="images/icon/ram-group.png" class="img-fluid" alt="">
+								3 GB <span>Ram</span>
+								<br><br>
+								<img src="images/icon/storage-group.png" class="img-fluid" alt="">
+								16 GB <span>ROM</span> | <span>Expandable</span> Upto 256 GB
+							</div>
+						</div>
 						<p class="my-sm-4 my-3">
 							<i class="fas fa-retweet mr-3"></i>Net banking & Credit/ Debit/ ATM card
 						</p>

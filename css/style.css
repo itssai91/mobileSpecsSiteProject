@@ -1526,12 +1526,6 @@ li.subitem1 p {
     letter-spacing: 0.5px;
 }
 
-.product-single-w3l ul li {
-    list-style: inside;
-    font-size: 14px;
-    line-height: 1.7;
-}
-
 .occasion-cart .snipcart-details {
     width: 38%;
     margin: 0;
